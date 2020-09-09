@@ -7,6 +7,6 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "Where would you like to go?"
 user_input = gets.strip
 input_to_index(user.input)
-move(board, index, "X")
+move(board, index, team = "X")
 display_board(board)
 end
